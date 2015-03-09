@@ -1,61 +1,51 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link type="text/css" rel="stylesheet" href="CSSpaypal.css"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>HomeWork</title>
+		<title>Paypal</title>
 
 	</head>
 	<body>
 		<div style="Margin: 250px; Margin-top: 0px; Margin-bottom: 2px; border:black 1px solid; padding:20px">
 		
-		<h2 style="color:#00BFFF; font-family:Arial Black"><strong style="color:#4682B4; font-family:Arial Black">P  Pay</strong>Pal</h2>
+			<img src="https://s3.amazonaws.com/cpm-Membership/paypal.jpg"/>
 			<hr style="border-width: 5px; border-style:solid; color:green" ></hr>
-		<h3 style="color:#C88039">Introduzca su informacion</h3>
+		<h3>Introduzca su informacion</h3>
 		<div>
-		 	<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 75%">Llene todos los campos</p>
+		 	<p id="first">Llene todos los campos</p>
 		 
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Correo Electronico</p>
-				<span style="font-family: Arial, Helvetica, sans-serif;
-font-size: 60%">Lo utilizara para iniciar sesion en PayPal</span>
+			<p>Correo Electronico</p>
+				<span>Lo utilizara para iniciar sesion en PayPal</span>
 		</div>
 		<input 	type="email"/>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Introducir una contraseña</p>
-				<span style="font-family: Arial, Helvetica, sans-serif;
-font-size: 60%">Minino de 8 caracteres</span>
+			<p>Introducir una contraseña</p>
+				<span>Minino de 8 caracteres</span>
 		</div>
 		<input type="password" maxlength="10" value=""/>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Volver a introducir contraseña</p>
+			<p>Volver a introducir contraseña</p>
 				<input type="password" maxlength="15" value=""/>
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Nombre</p>
+			<p>Nombre</p>
 				<input 	type="text"/>
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Segundo Nombre</p>
+			<p>Segundo Nombre</p>
 				<input 	type="text"/>
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Apellidos</p>
+			<p>Apellido</p>
 				<input 	type="text"/>
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Fecha de nacimiento</p>
+			<p>Fecha de nacimiento</p>
 				<input type="date">
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Nacionalidad</p>
+			<p>Nacionalidad</p>
 				<input type="text" list="misdatos" … >
 		<datalist id="misdatos">
 		<option value="HN">Honduras</option>	
@@ -72,41 +62,33 @@ font-size: 90%">Nacionalidad</p>
 		</datalist>
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Linea de direccion 1</p>
+			<p>Linea de direccion 1</p>
 				<input type="text">
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Linea de direccion 2 <span style="font-family: Arial, Helvetica, sans-serif;
-font-size: 60%">(opcional)</span></p>
+			<p>Linea de direccion 2 <span>(opcional)</span></p>
 				<input type="text">
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Cuidad</p>
+			<p>Cuidad</p>
 				<input type="text">
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Estado/Provincia/Region</p>
+			<p>Estado/Provincia/Region</p>
 				<input type="text">
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Codigo Postal</p>
+			<p>Codigo Postal</p>
 				<input type="text">
 		</div>
 		<div>
-			<p style="font-family: Arial, Helvetica, sans-serif;
-font-size: 90%">Número de teléfono<span style="font-family: Arial, Helvetica, sans-serif;
-font-size: 70%"> Por que es necesario esto?</span></p>
+			<p>Número de teléfono<span> Por que es necesario esto?</span></p>
 				<input type="text">
 		</div>
 		<div style="font-family: Arial, Helvetica, sans-serif;
 font-size: 90%">
 			<p>Nota para el usuario: El servicio de pagos de PayPal™ se considera un servicio de valor almacenado regido por las leyes de Singapur. PayPal Pte. Ltd., titular del servicio de valor almacenado de PayPal™, no requiere la aprobación de las autoridades monetarias de Singapur. Recomendamos a los consumidores (usuarios) que lean los términos y las condiciones cuidadosamente.</p>
-			<p>Al hacer clic en el botón, acepto las <span style="color:blue;">Condiciones de Uso de PayPal</span></p>
+			<p>Al hacer clic en el botón, acepto las <span id="color">Condiciones de Uso de PayPal</span></p>
 		</div>
 		<input style="color:green" type="submit" value="Aceptar y Abrir Cuenta">
 	</body>
