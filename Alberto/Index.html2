@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+	<link type="text/css" rel="stylesheet" href="CSSpaypal2.css"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Registrese en PayPal</title>
+</head>
+<body>
+	<img src="https://s3.amazonaws.com/cpm-Membership/paypal.jpg"  style="height: 50px; length: 6px; padding:10px" />
+	<hr style="border-width: 1px; border-style:solid; color:blue;" ></hr>
+	<h1 style="color:#009cde ; font-family:Arial; font-size:40px">Regístrese en PayPal</h1>
+		<div style="border-style:groove; background-color:#E6E6FA; padding:20px; margin:50px; width:480px">
+			<h2>Compra con PayPal</h2>
+				<p>para quienes quieren comprar en linea</p>
+				<button style="padding: 10px 50px; background-color:#009CDE; font-size: 1.07142857142857rem; vertical-align: center;">Empiece Ahora</button>	
+			<ul>
+					<li>Compre en línea sin compartir su información financiera</li>
+					<li>Compre en millones de sitios web alrededor del mundo</li>
+					<li>Pague con su tarjeta de crédito</li>
+					<li>Reciba las recompensas de su tarjeta de crédito</li>
+			</ul>	
+			<img src="https://www.paypalobjects.com/webstatic/en_CL/mktg/account-selection/clac-cc-logos.png" style="text-align:right">
+		</div>	
+		<div style="border-style:groove; background-color:#E6E6FA; padding:20px; position:Absolute; top:215px ; left:650px">
+			<h2>Recibir pagos con PayPal</h2>
+				<p>Para personas y comercios que principalmente quieren recibir pagos.</p>
+				<button style="padding: 10px 50px; background-color:#009CDE; font-size: 1.07142857142857rem; vertical-align: center;">Empiece Ahora</button>
+				<ul>
+					<li>Acepte pagos en su sitio web o por email</li>
+					<li>Acepte tarjetas de crédito del alrededor del mundo</li>
+					<li>Sin cargos mensuales o por apertura de cuenta</li>
+					<li>Solo paga comisión cuando recibe un pago</li>
+				</ul>
+				<img src="https://www.paypalobjects.com/webstatic/en_US/logo/as-logos-clac-card_405x40.png">
+		</div>	
+	<p style="font-family:Arial; font-size:10px">Hay una comisión si su transacción implica una conversión de divisas. Vea detalles de <span style="color:blue; font-family:Arial; font-size:10px">comisiones</span>.</p>	
+		
+		<pre>Ayuda    Contactanos    Comiciones    Seguridad    Comprar</pre>
+		<hr style="border-width: 1px; border-style:solid; color:black;" ></hr>
+	<pre>Sobre PayPal    Blog    Empleos    Mapa del sitio    eBay    Desarrolladores    Alianzas    Feedback                          © 1999-2015 Política de Privacidad Acuerdos Legales
+</pre>		
+	</body>
