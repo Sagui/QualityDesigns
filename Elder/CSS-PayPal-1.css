@@ -1,0 +1,22 @@
+.Informacion{
+	color:darkorange;
+	font-size:20px
+
+}
+
+.Nota{
+	font-family:Arial;
+	 font-size:13px;
+}
+
+.Contactar{
+	text-align:center;
+	font-family:Arial;
+	color:darkgray; 
+	font-size:13px
+}
+
+img{
+	width: 200px;
+	height: 100px;
+}

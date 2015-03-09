@@ -1,0 +1,37 @@
+.Registrar{
+	color:dodgerblue; 
+	font-size:40px; 
+	font-family: Agency;
+	margin-top:0;
+}
+
+.Boton{
+	Color:white;
+	background:dodgerblue;
+	padding: 10px 50px;
+}
+
+.Comenzar{
+	font-size:17px;
+}
+
+.Boton2{
+	Color:white;
+	background:dodgerblue;
+	padding: 10px 50px;
+}
+
+.Comenzar2{
+	font-size:17px;
+}
+
+#text1{
+	color:dimgray; 
+	font-size:13px; 
+	padding:20px; 
+	Margin-top:-40px;
+}
+
+#Comis{
+	Color:blue;
+}

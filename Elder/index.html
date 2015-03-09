@@ -1,59 +1,81 @@
 <DOCTYPE html>
 <html>
 	<head>
-
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+		<link type="text/css" rel="stylesheet" href="CSS-PayPal-1.css"/>
 		<title>Paypal</title>
 	</head>
+
+
 	<body style="Margin: 250px; margin-bottom:50; margin-top:0;"/>
-		<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/original.jpg" width="200" height="100"/>
+		<img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/04/original.jpg"/>
 		<hr style="border-width:3px; color:teal; border-style:solid"></hr>
 		
 
-		<p style="color:darkorange; font-size:20px">Introduzca su informaci&oacute;n</p>
+		<p class="Imformacion">Introduzca su información</p>
 		<div style="border:solid 1px #aaaaaa; padding:20px">
-
 		<p><strong>Llenar los campos siguientes:</strong></p>
 
 		<p>Nombre</p>
 		<input 	type="text"/>
 
-		<p>Apellido</p>
+		<p style=>Apellido</p>
 		<input 	type="text"/>
 		<p>Fecha de Nacimiento</p>
 		<input 	type="Date"/>
+		<p>Correo electrónico</p>
+		<input type="text">
 
-		<p>Nacionalidad</p>
-		<input type="text" list="misdatos" … >
-		<datalist id="misdatos">
-    	<option label="Honduras" value="Honduras">
-    	<option label="E.E.U.U" value="E.E.U.U">
-    	<option label="China" value="China">    
-		</datalist>
+
+		<p>Naacionalidad</p>
+		<select name="menu">
+  			<option value="1" selected="selected"></option>
+  			<option value="2">USA</option>
+  			<option value="3">Rusia</option>
+  			<option value="4">China</option>
+  			<option value="5">Austria</option>
+  			<option value="6">Canadá</option>
+  			<option value="7">España</option>
+  			<option value="8">Japón</option>
+  			<option value="9">Honduras</option>
+  			<option value="10">India</option>
+  			<option value="11">Francia</option>
+  			<option value="12">Costa Rica</option>
+  			<option value="13">Cuba</option>
+  			<option value="14">Brasil</option>
+  			<option value="15">Venezuela</option>
+		</select>
 
 		<p>Sexo</p>
 		Male <input type="Radio" name="Sexo" value="Male"/>
 		Famale <input type="Radio" name="Sexo" value="Famale"/>
 
-		<p>L&iacute;nea de direcci&oacute;n 1</p>
+		<p>Línea de dirección 1</p>
 		<input type="text"/>
-		<p>L&iacute;nea de direcci&oacute;n 2 <span style="font-size:13px">(opcional)</span></p>
+
+		<p>Línea de dirección 2 <span style="font-size:13px">(opcional)</span></p>
 		<input type="text"/>
+
 		<p>Ciudad</p>
 		<input type="text"/>
-		<p>Estado/Provincia/Regi&oacute;n</p>
+
+		<p>Estado/Provincia/Región</p>
 		<input type="text"/>
-		<p>C&oacute;digo postal</p>
+
+		<p>Código postal</p>
 		<input type="text"/>
-		<p>N&uacute;mero de tel&eacute;fono</p>
+
+		<p>Número de teléfono</p>
 		<input type="number" maxlegth="15" value""/>
 
-		<p>Contrase&ntilde;a</p>
+		<p>Contraseña</p>
 		<input type="password" maxlength="15" value=""/>
-		<p>Confirmar Contrase&ntilde;a</p>
+
+		<p>Confirmar Contraseña</p>
 		<input type="password" maxlength="15" value=""/>
 
 		<div>
-			<p style="font-family:Arial; font-size:13px;">Nota para el usuario: El servicio de pagos de PayPal™ se considera un servicio de valor almacenado regido por las leyes de Singapur. PayPal Pte. Ltd., titular del servicio de valor almacenado de PayPal™, no requiere la aprobaci&oacute;n de las autoridades monetarias de Singapur. Recomendamos a los consumidores (usuarios) que lean los t&eacute;rminos y las condiciones cuidadosamente.</p>
+			<p class="Nota">Nota para el usuario: El servicio de pagos de PayPal™ se considera un servicio de valor almacenado regido por las leyes de Singapur. PayPal Pte. Ltd., titular del servicio de valor almacenado de PayPal™, no requiere la aaprobación de las autoridades monetarias de Singapur. Recomendamos a los consumidores (usuarios) que lean los términos y las condiciones cuidadosamente.</p>
 		</div>
 
 		<div>
@@ -63,13 +85,13 @@
 	</body>
 
 	<div>
-	<p style ="text-align:center;font-family:Arial;color:darkgray; font-size:13px">
+	<p class="Contactar">
 		Contactar
 Copyright © 1999-2015 PayPal. Todos los derechos reservados.
 
-Nota para el consumidor: PayPal Pte. Ltd., titular de la instalaci&oacute;n de valor
-almacenado de PayPal, no requiere la aprobaci&oacute;n de las autoridades monetarias de Singapur.
-Recomendamos a los usuarios que lean los t&eacute;rminos y condiciones con atenci&oacute;n
+Nota para el consumidor: PayPal Pte. Ltd., titular de la instalación de valor
+almacenado de PayPal, no requiere la aprobación de las autoridades monetarias de Singapur.
+Recomendamos a los usuarios que lean los términos y condiciones con atención
 
 	</p>
 </div>
