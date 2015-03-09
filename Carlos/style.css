@@ -1,0 +1,64 @@
+#headline h2 {
+	color: #C88039;
+	position: relative;
+	left: 305px;
+	font: 16.5px sans-serif;
+	font-weight: bold;
+	
+}
+
+#ebay_logo {
+	position: relative;
+	left: 305px;
+}
+
+#user_form {
+
+	margin: 0 auto;
+	width: 700px;
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 0.5em;
+	font: 13.5px sans-serif;
+}
+
+form div + div {
+
+	margin-top: 1em;
+}
+
+
+input, textarea {
+    
+    font: 1em sans-serif;
+
+    
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    
+    border: 1px solid #999;
+}
+
+footer {
+
+	position: relative;
+	left: 650px;
+	font: 12.5px sans-serif;
+}
+
+#copyright {
+	position: relative;
+	left: 500px;
+	font: 12.5px sans-serif;
+}
+
+#nota {
+	position: relative;
+	left: 300px;
+	font: 12.5px sans-serif;
+}
+
+
+
