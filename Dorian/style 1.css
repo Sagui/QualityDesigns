@@ -1,11 +1,9 @@
-style.css
-
- div.left {
-    width: 300px;
+.left{
+    width: 550px;
     background-color: #F5F5F5;
-    height: 500px;
+    height: 300px;
     float: left;
-    border: 1px solid black;
+    border: 1px solid;
     border-radius: 0.7em;
     position: relative;
     left: 100px;
@@ -13,7 +11,7 @@ style.css
 }
 
 
-.rightdre  {
+.rightdre{
     width: 550px;
     background-color: #F5F5F5;
     height: 300px;
@@ -23,7 +21,6 @@ style.css
     position: relative;
     right:100px;
     font: 16px arial;
-    margin-top: -200px;
 }
 
 #list1 {
