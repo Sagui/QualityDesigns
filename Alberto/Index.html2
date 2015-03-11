@@ -9,7 +9,7 @@
 	<hr style="border-width: 1px; border-style:solid; color:blue;" ></hr>
 	<h1 style="color:#009cde ; font-family:Arial; font-size:40px">Regístrese en PayPal</h1>
 		<div style="border-style:groove; background-color:#E6E6FA; padding:20px; margin:50px; width:480px">
-			<h2>Compra con PayPal</h2>
+			<h2 style="font-family:Arial;">Compra con PayPal</h2>
 				<p>para quienes quieren comprar en linea</p>
 				<button style="padding: 10px 50px; background-color:#009CDE; font-size: 1.07142857142857rem; vertical-align: center;">Empiece Ahora</button>	
 			<ul>
@@ -21,8 +21,8 @@
 			<img src="https://www.paypalobjects.com/webstatic/en_CL/mktg/account-selection/clac-cc-logos.png" style="text-align:right">
 		</div>	
 		<div style="border-style:groove; background-color:#E6E6FA; padding:20px; position:Absolute; top:215px ; left:650px">
-			<h2>Recibir pagos con PayPal</h2>
-				<p>Para personas y comercios que principalmente quieren recibir pagos.</p>
+			<h2 style="font-family:Arial;">Recibir pagos con PayPal</h2>
+				<p style="font-family:sans-serif; font-size:15px">Para personas y comercios que principalmente quieren recibir pagos.</p>
 				<button style="padding: 10px 50px; background-color:#009CDE; font-size: 1.07142857142857rem; vertical-align: center;">Empiece Ahora</button>
 				<ul>
 					<li>Acepte pagos en su sitio web o por email</li>
@@ -34,8 +34,8 @@
 		</div>	
 	<p style="font-family:Arial; font-size:10px">Hay una comisión si su transacción implica una conversión de divisas. Vea detalles de <span style="color:blue; font-family:Arial; font-size:10px">comisiones</span>.</p>	
 		
-		<pre>Ayuda    Contactanos    Comiciones    Seguridad    Comprar</pre>
+		<pre style="font-family:sans-serif; font-size:15px">Ayuda    Contactanos    Comiciones    Seguridad    Comprar</pre>
 		<hr style="border-width: 1px; border-style:solid; color:black;" ></hr>
-	<pre>Sobre PayPal    Blog    Empleos    Mapa del sitio    eBay    Desarrolladores    Alianzas    Feedback                          © 1999-2015 Política de Privacidad Acuerdos Legales
+	<pre style="font-family:sans-serif; font-size:15px">Sobre PayPal    Blog    Empleos    Mapa del sitio    eBay    Desarrolladores    Alianzas    Feedback                                                              © 1999-2015 Política de Privacidad Acuerdos Legales
 </pre>		
 	</body>
